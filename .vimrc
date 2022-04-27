@@ -124,10 +124,10 @@ let g:mapleader = ','
 
 
 " 在插入模式下非递归映(为 )<Esc>i
-inoremap ( ()<Esc>i
-inoremap [ []<Esc>i
-inoremap { {}<Esc>i
-inoremap " ""<Esc>i
+"inoremap ( ()<Esc>i
+"inoremap [ []<Esc>i
+"inoremap { {}<Esc>i
+"inoremap " ""<Esc>i
 
 
 
@@ -181,7 +181,7 @@ inoremap <C-U> <C-G>u<C-U>
 
 " In many terminal emulators the mouse works just fine, thus enable it.
 if has('mouse')
-  set mouse=v
+  set mouse=a
   set selection=exclusive	" ()
   set selectmode=mouse,key	" (鼠标启动可视模式和选择模式)
   "set mousemodel=popup_setpos
