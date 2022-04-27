@@ -183,9 +183,9 @@ inoremap <C-U> <C-G>u<C-U>
 if has('mouse')
   set mouse=a
   set selection=exclusive	" ()
-  set selectmode=mouse,key	" (鼠标启动可视模式和选择模式)
-  "set mousemodel=popup_setpos
-  "set clipboard=autoselect
+  "set selectmode=mouse,key	" (鼠标启动可视模式和选择模式)
+  set mousemodel=popup_setpos
+  set clipboard=autoselect
 endif
 
 
